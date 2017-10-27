@@ -8,7 +8,7 @@ import io.funatwork.model.Organization
 open class OrganizationResource(private val entityStore: Dao<OrganizationEntity, String>) {
 
     fun create(organization: Organization): Organization {
-        val orga = OrganizationEntity(id = null, name = organization.name)
+        val orga = OrganizationEntity(id = null, name = organization.name, logo = organization.logo)
         entityStore.create(orga)
         return orga.toModel()
     }

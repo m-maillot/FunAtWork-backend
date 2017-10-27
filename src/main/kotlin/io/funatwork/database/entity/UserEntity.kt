@@ -1,18 +1,24 @@
 package io.funatwork.database.entity
 
-/*
-@Entity
-data class UserEntity constructor(
-        @get:Key
-        @get:Generated
-        val id: Int,
-        val login: String,
-        val password: String,
-        val token: String,
-        val tokenExpire: String,
+import com.j256.ormlite.field.DatabaseField
+import com.j256.ormlite.table.DatabaseTable
 
-        @get:ForeignKey
-        @get:OneToOne
-        var organization: OrganizationEntity
+@DatabaseTable(tableName = "user")
+data class UserEntity(
+        @DatabaseField(generatedId = true)
+        val id: Int? = null,
+        @DatabaseField(columnName = LOGIN)
+        val login: String = "",
+        @DatabaseField
+        val password: String = "",
+        @DatabaseField(columnName = TOKEN)
+        val token: String = "",
+        @DatabaseField
+        val tokenExpire: String = "",
+
+        @DatabaseField(canBeNull = false, foreign = true)
+        var organization: OrganizationEntity = OrganizationEntity(name = "unknown", logo = "")
 )
-        */
+
+const val LOGIN = "login"
+const val TOKEN = "token"

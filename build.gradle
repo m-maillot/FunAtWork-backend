@@ -4,11 +4,11 @@ version '1.0-SNAPSHOT'
 buildscript {
     ext.kotlin_version = '1.1.51'
     ext.http4k_version = '2.31.2'
-    ext.junit4Version        = '4.12'
-    ext.junitVintageVersion  = '4.12.1'
+    ext.junit4Version = '4.12'
+    ext.junitVintageVersion = '4.12.1'
     ext.junitPlatformVersion = '1.0.1'
-    ext.junitJupiterVersion  = '5.0.1'
-    ext.log4jVersion         = '2.9.0'
+    ext.junitJupiterVersion = '5.0.1'
+    ext.log4jVersion = '2.9.0'
 
     repositories {
         mavenCentral()
@@ -61,8 +61,7 @@ dependencies {
     compile "org.http4k:http4k-server-jetty:$http4k_version"
     compile "org.http4k:http4k-client-apache:$http4k_version"
     compile "org.http4k:http4k-format-jackson:$http4k_version"
-    compile 'io.requery:requery:1.4.1'
-    compile group: 'com.h2database', name: 'h2', version: '1.4.196'
+    compile "com.h2database:h2:1.4.196"
     compile 'com.j256.ormlite:ormlite-core:5.0'
     compile 'com.j256.ormlite:ormlite-jdbc:5.0'
 

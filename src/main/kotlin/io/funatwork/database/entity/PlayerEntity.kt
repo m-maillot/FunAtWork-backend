@@ -1,7 +1,5 @@
 package io.funatwork.database.entity
 
-import io.requery.*
-
 /*
 @Entity
 data class PlayerEntity constructor(
