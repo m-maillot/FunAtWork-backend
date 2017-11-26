@@ -7,18 +7,20 @@ import com.j256.ormlite.table.DatabaseTable
 data class UserEntity(
         @DatabaseField(generatedId = true)
         val id: Int? = null,
-        @DatabaseField(columnName = LOGIN)
-        val login: String = "",
-        @DatabaseField
-        val password: String = "",
-        @DatabaseField(columnName = TOKEN)
-        val token: String = "",
-        @DatabaseField
-        val tokenExpire: String = "",
+        @DatabaseField(columnName = MAIL, canBeNull = false)
+        val mail: String = "",
+        @DatabaseField(columnName = PASSWORD, canBeNull = true)
+        val password: String? = null,
+        @DatabaseField(columnName = TOKEN, canBeNull = true)
+        val token: String? = null,
+        @DatabaseField(columnName = TOKEN_EXPIRATION, canBeNull = true)
+        val tokenExpireTimestampInMs: Long? = null,
 
         @DatabaseField(canBeNull = false, foreign = true)
         var organization: OrganizationEntity = OrganizationEntity(name = "unknown", logo = "")
 )
 
-const val LOGIN = "login"
+const val MAIL = "mail"
+const val PASSWORD = "password"
 const val TOKEN = "token"
+const val TOKEN_EXPIRATION = "tokenExpirationTimestampInMs"
