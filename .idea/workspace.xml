@@ -2,17 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0969b8de-a433-46a3-85f7-73a867fa0867" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_1_51.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jre7_1_1_51.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jre8_1_1_51.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/input/RegisterInput.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/output/RegisterOutput.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/PlayerResource.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/filter/AuthUser.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/kotlin/Matcher.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/kotlin/RegisterApiFunctionalTest.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/registerDataSet/registerPostDataOk.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/registerDataSet/registerResultDataOk.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_kotlin_2_9_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_http_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_io_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_security_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_server_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_servlet_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_util_9_4_6_v20170531.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4k_http4k_client_apache_2_31_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4k_http4k_client_okhttp_2_31_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4k_http4k_core_2_31_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4k_http4k_format_jackson_2_31_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4k_http4k_server_jetty_2_31_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4k_http4k_testing_hamkrest_2_31_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/AuthUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/PlayerAction$create$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/PlayerAction$select$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/PlayerAction$signin$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/PlayerAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/database/PlayerDatabase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/AuthUser.kt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/PlayerDatabase.kt" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/PlayerAction.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/RegisterAction.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.2/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.2/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.2/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.2/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/EntryToModelMapperKt.class" afterPath="$PROJECT_DIR$/out/production/classes/EntryToModelMapperKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/META-INF/funatwork-backend_main.kotlin_module" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/funatwork-backend_main.kotlin_module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/FunServer.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/FunServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/MainKt.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/MainKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction$$special$$inlined$auto$1.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction$$special$$inlined$auto$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction$$special$$inlined$auto$2.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction$$special$$inlined$auto$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction$$special$$inlined$auto$3.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction$$special$$inlined$auto$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction$$special$$inlined$auto$4.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction$$special$$inlined$auto$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction$$special$$inlined$auto$5.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction$$special$$inlined$auto$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction$$special$$inlined$auto$6.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction$$special$$inlined$auto$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction$create$1.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction$create$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction$select$1.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction$select$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/OrganizationAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/input/CreateOrganizationEntry.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/action/input/CreateOrganizationEntry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/database/DatabaseHelper.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/database/DatabaseHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/database/OrganizationResource.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/database/OrganizationResource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/database/entity/EntitiesMapperKt.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/database/entity/EntitiesMapperKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/database/entity/OrganizationEntity.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/database/entity/OrganizationEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/filter/AdminAuthenticationFilter$invoke$1$1.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/filter/AdminAuthenticationFilter$invoke$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/filter/AdminAuthenticationFilter$invoke$1.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/filter/AdminAuthenticationFilter$invoke$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/filter/AdminAuthenticationFilter.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/filter/AdminAuthenticationFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/filter/AuthenticationFilter$invoke$1$1.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/filter/AuthenticationFilter$invoke$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/filter/AuthenticationFilter$invoke$1.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/filter/AuthenticationFilter$invoke$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/filter/AuthenticationFilter.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/filter/AuthenticationFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/model/Organization.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/model/Organization.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/io/funatwork/model/Player.class" afterPath="$PROJECT_DIR$/out/production/classes/io/funatwork/model/Player.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/funatwork-backend_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/funatwork-backend_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/funatwork-backend_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/funatwork-backend_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/FunServer.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/FunServer.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/Main.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/Main.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/ActionFactory.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/ActionFactory.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/OrganizationAction.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/OrganizationAction.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/DatabaseHelper.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/DatabaseHelper.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/UserResource.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/UserResource.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/EntitiesMapper.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/EntitiesMapper.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/ModelMapper.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/ModelMapper.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/PlayerEntity.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/PlayerEntity.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/UserEntity.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/UserEntity.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/filter/AuthenticationFilter.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/filter/AuthenticationFilter.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/model/Player.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/model/Player.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/model/User.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/model/User.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/route/RouteFactory.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/io/funatwork/route/RouteFactory.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -65,9 +139,31 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="235">
+              <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterAction.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/RegisterAction.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+              <folding>
+                <element signature="e#29#423#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,53 +178,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrganizationApiFunctionnalTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/OrganizationApiFunctionnalTest.kt">
+      <file leaf-file-name="AuthenticationFilter.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/filter/AuthenticationFilter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+            <state relative-caret-position="330">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
-                <element signature="e#0#768#0" expanded="true" />
+                <element signature="e#29#313#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RouteFactory.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/route/RouteFactory.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-              <folding>
-                <element signature="e#28#416#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1665">
-                <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-                <folding>
-                  <marker date="1511295505008" expanded="true" signature="3354:3446" ph="{&quot;id&quot;: 1...}" />
-                  <marker date="1511295505008" expanded="true" signature="3668:3762" ph="{&quot;name&quot;: &quot;Organization name&quot;...}" />
-                  <marker date="1511295505008" expanded="true" signature="3827:3919" ph="{&quot;id&quot;: 1...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -136,38 +193,40 @@
       <file leaf-file-name="UserResource.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/UserResource.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+            <state relative-caret-position="131">
+              <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+              <folding>
+                <element signature="e#31#513#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Result.kt" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.michaelbull/kotlin-result/1.0.5/38da6c3a4818915c42e3461d836cfc89ec04bca3/kotlin-result-1.0.5-sources.jar!/com/github/michaelbull/result/Result.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserEntity.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/UserEntity.kt">
+      <file leaf-file-name="AuthUser.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/filter/AuthUser.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="105">
+              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gradlew.bat" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <file leaf-file-name="http.kt" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-core/3.8.0/7f9d0e7fc3a8886c6848c9f64cbd201ab273c02a/http4k-core-3.8.0-sources.jar!/org/http4k/core/http.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerEntity.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/PlayerEntity.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+            <state relative-caret-position="407">
+              <caret line="213" column="10" lean-forward="false" selection-start-line="213" selection-start-column="10" selection-end-line="213" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -381,8 +440,8 @@
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/.gradle/gradle.properties" value="1018765813" />
-        <entry key="$PROJECT_DIR$" value="6045566124000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="915212567" />
+        <entry key="$PROJECT_DIR$" value="6050588168000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3562420325" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="255158738" />
       </map>
     </option>
@@ -398,34 +457,34 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.1.61/c8da49880723ba5fd278c17fd75b76ffc4516a53/kotlin-gradle-plugin-1.1.61-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.1.61/f1e2bd31ea98ecbe47dcf621d86866cf51d7719/kotlin-gradle-plugin-1.1.61.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.2.10/838e8a37b1a4de41dfa046acdef26c9615f23a84/kotlin-gradle-plugin-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.2.10/4590f13fc4dc702a433421040bdc58bd8e9973f8/kotlin-gradle-plugin-1.2.10.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-gradle-plugin/1.0.1/480ad0fb4a6ffa9a6429e4331c9c53a3ff90d12a/junit-platform-gradle-plugin-1.0.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-gradle-plugin/1.0.1/2cce124b61a8b0c7f5d65b8e5933ac6c518a27ff/junit-platform-gradle-plugin-1.0.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.1.61/92d578d4aa11fe2175f1ffcd82bc3172ea15c7da/kotlin-gradle-plugin-api-1.1.61-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.1.61/71070ad00c16f346c2e5e7898dae4ef1c6267ecb/kotlin-gradle-plugin-api-1.1.61.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.61/ea52e42ec1396aa3cc9fb3889e9f797467472460/kotlin-stdlib-1.1.61-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.61/fa7813a26c548c9c412dd2d42fb466cfcd8dcf3c/kotlin-stdlib-1.1.61.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.1.61/6ac889621e93b96740b116059162496e67953a5d/kotlin-compiler-embeddable-1.1.61-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.1.61/f05214e6f333cc24296556caf06654ff3de893df/kotlin-compiler-embeddable-1.1.61.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.1.61/99cd684c0db54c8eb82ed05d0f3a41335e2e96ad/kotlin-annotation-processing-gradle-1.1.61-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.1.61/a75d573045b09f94a3eb13fedc626ab0b0e9edb/kotlin-annotation-processing-gradle-1.1.61.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.1.61/2493a627515c9a8099c60e57df9489c4c1e872e4/kotlin-android-extensions-1.1.61-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.1.61/2300ec1b984954b92fdea4a8b131de01c9c19b78/kotlin-android-extensions-1.1.61.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/1.1.61/ad86e200f0ca099ea9ba8281631ff0db2cd3234b/kotlin-compiler-runner-1.1.61-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/1.1.61/96f9cca973b60a0ef76a2041843e4fe7cc181832/kotlin-compiler-runner-1.1.61.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.2.10/a8020c912333eb6f195fa6761a39dd493cd421ca/kotlin-gradle-plugin-api-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.2.10/649d2fc7c597dd4001583ebf90ffb451d2a565ed/kotlin-gradle-plugin-api-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.10/c0f90f56ebb568fe5fa4001ee1941b27cb8a2e1f/kotlin-stdlib-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.10/b9bf650516989595a5390e5a54181e16347208ac/kotlin-stdlib-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.2.10/7f410f5298b7756fa132cccf49b793d5f242feb1/kotlin-compiler-embeddable-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.2.10/649eba68c683bc722208b7cb9ffb23d93dc37895/kotlin-compiler-embeddable-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.2.10/f8694667592d7f7df382cbb42ef13db608a13c35/kotlin-annotation-processing-gradle-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.2.10/4152af9baeb52652a3abcaff73a8d5f8ba736d5a/kotlin-annotation-processing-gradle-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.10/1b2b318370a67c4e22aaea4564d072b0f801765e/kotlin-android-extensions-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.10/10eb9a3d66aa7c5e17afdf93116082018d0d4643/kotlin-android-extensions-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/1.2.10/f2d9ab22c6fcf7cba4056b6a43915b27d72fae93/kotlin-compiler-runner-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/1.2.10/d5b16cd33799465d83080df62a09638c442cec41/kotlin-compiler-runner-1.2.10.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.0.1/f608fd39e09a06a036eb79c4d448486cbfb660c8/junit-platform-console-1.0.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.0.1/3892e08f30d92a88addc73f3a5f9575be864cec/junit-platform-console-1.0.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.0.1/e6eb25c9576f7faec4dfda146d40d4ba07e45d12/junit-platform-launcher-1.0.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.0.1/5562631a34e4eefefdad04cdd49a50774d6ac777/junit-platform-launcher-1.0.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.1.61/3d9f4ca7bb957e8e7c5cf8ab07ae59fcebde05f4/kotlin-script-runtime-1.1.61-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.1.61/5a38798ca75b46c367d1e39dc3f7a639771d644/kotlin-script-runtime-1.1.61.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.1.61/ab66579555d2b2b310376a3b385cb843adfb3e53/kotlin-reflect-1.1.61-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.1.61/bb6da1a122c3fba2f7ee5c71946441e4f756fad4/kotlin-reflect-1.1.61.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-common/1.1.61/13e65bed0f9804d30b9cc3f4f94eaf0e95b6d65a/kotlin-build-common-1.1.61-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-common/1.1.61/f77fa52921ff4183b9ac4a3c90aa4ce1b0de0950/kotlin-build-common-1.1.61.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-client/1.1.61/383fbf559f7ba56dc068e50ac2112e0270714525/kotlin-daemon-client-1.1.61-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-client/1.1.61/72262299db910363349d689aca646a14a841570e/kotlin-daemon-client-1.1.61.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.2.10/74326516cb4782bca95cb7d7243ace213a7d218f/kotlin-script-runtime-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.2.10/941e197bf42d698e1cd5c47d302b753b7b1b7aec/kotlin-script-runtime-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.10/130e1d6da6fafc37b3024a60b04a6dad6ed08da/kotlin-reflect-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.10/19bc012f8c4cd6b705bd6512263777cc19bcf259/kotlin-reflect-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-common/1.2.10/1996c42be67f208cf8d7a6fa7319af168bfbd77/kotlin-build-common-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-common/1.2.10/9da5a326205f27fb19a1654bcfb18b9f166caf33/kotlin-build-common-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-client/1.2.10/ec7f155f944d40eb4b61527a387493c51dc37324/kotlin-daemon-client-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-client/1.2.10/651826c1a1d1a441c48e04f58dc98dff6752abb7/kotlin-daemon-client-1.2.10.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.0.1/3527e27f6e0bca46bed66c42bd1ace1f05307238/junit-platform-engine-1.0.1-sources.jar" />
@@ -600,16 +659,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/kotlin/Main.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/PlayerDatabase.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/AuthUser.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/PlayerAction.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/Player.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/User.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/Organization.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/OrganizationEntiry.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/DatabaseHelper.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/model/Player.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/FirstTest.kt" />
         <option value="$PROJECT_DIR$/src/test/resources/mockito-extensions/org.mockito.plugins.MockMaker" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/input/CreateOrganizationEntry.kt" />
@@ -617,27 +672,44 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/input/EntryToModelMapper.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/OrganizationEntity.kt" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/OrganizationAction.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/FileExtension.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/Main.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/OrganizationResource.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/model/User.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/EntitiesMapper.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/ModelMapper.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/DatabaseHelper.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/UserResource.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/filter/AuthenticationFilter.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/PlayerEntity.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/ActionFactory.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/route/RouteFactory.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/FunServer.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/filter/AdminAuthenticationFilter.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/OrganizationApiTest.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/OrganizationApiTestFunctionnal.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/OrganizationApiFunctionnalTest.kt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/resources/playerDataSet/createPostDataOk.json" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/PlayerApiFunctionnalTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/resources/playerDataSet/createResultDataOk.json" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/PlayerApiFunctionalTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/UserApiFunctionalTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/SigninApiFunctionalTest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/UserEntity.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/PlayerEntity.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/PlayerResource.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/model/Player.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/EntitiesMapper.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/ModelMapper.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/input/CreateUserEntry.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/DatabaseHelper.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/ActionFactory.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/FunServer.kt" />
+        <option value="$PROJECT_DIR$/src/test/resources/registerDataSet/registerPostDataOk.json" />
+        <option value="$PROJECT_DIR$/src/test/resources/registerDataSet/registerResultDataOk.json" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/Matcher.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/model/User.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/RegisterApiFunctionalTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/Main.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/OrganizationAction.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/output/RegisterOutput.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/route/RouteFactory.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/input/RegisterInput.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/RegisterAction.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/UserResource.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/filter/AuthUser.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/funatwork/filter/AuthenticationFilter.kt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -648,10 +720,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="947" />
+    <option name="width" value="1920" />
+    <option name="height" value="1097" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -669,7 +741,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -680,6 +753,11 @@
             <path>
               <item name="funatwork-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="FunAtWork-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="funatwork-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FunAtWork-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -710,7 +788,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="funatwork" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="funatwork-backend" type="b2602c69:ProjectViewProjectNode" />
@@ -719,8 +797,36 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="funatwork" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="funatwork-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FunAtWork-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="funatwork" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="funatwork-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FunAtWork-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="funatwork" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="funatwork-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FunAtWork-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="funatwork" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="funatwork-backend" type="b2602c69:ProjectViewProjectNode" />
@@ -744,13 +850,35 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="funatwork-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FunAtWork-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="funatwork-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FunAtWork-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mockito-extensions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="funatwork-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FunAtWork-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="registerDataSet" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -762,18 +890,23 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="io.funatwork.database" />
-      <recent name="io.funatwork.action" />
-      <recent name="io.funatwork.database.entity" />
-      <recent name="io.funatwork.filter" />
-    </key>
-    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="io.funatwork.database" />
-      <recent name="io.funatwork.database.entity" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/io/funatwork" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="io.funatwork.action.output" />
+      <recent name="io.funatwork.action.input" />
+      <recent name="io.funatwork.database" />
+      <recent name="io.funatwork.action" />
+      <recent name="" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="io.funatwork.filter" />
+      <recent name="io.funatwork.database" />
+      <recent name="io.funatwork.database.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/playerDataSet" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -788,7 +921,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrganizationApiFunctionnalTest">
+  <component name="RunManager" selected="JUnit.RegisterApiFunctionalTest">
     <configuration name="OrganizationApiFunctionnalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="funatwork-backend_test" />
@@ -809,13 +942,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="OrganizationApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterApiFunctionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="funatwork-backend_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OrganizationApiTest" />
+      <option name="MAIN_CLASS_NAME" value="RegisterApiFunctionalTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -829,14 +962,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="OrganizationApiTest.create a new organization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterApiFunctionalTest.create a new user" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="funatwork-backend_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OrganizationApiTest" />
-      <option name="METHOD_NAME" value="create a new organization" />
+      <option name="MAIN_CLASS_NAME" value="RegisterApiFunctionalTest" />
+      <option name="METHOD_NAME" value="create a new user" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -849,33 +982,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="OrganizationApiTest.list organization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterApiFunctionalTest.responds to ping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="funatwork-backend_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OrganizationApiTest" />
-      <option name="METHOD_NAME" value="list organization" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="OrganizationApiTest.responds to ping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="funatwork-backend_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OrganizationApiTest" />
+      <option name="MAIN_CLASS_NAME" value="RegisterApiFunctionalTest" />
       <option name="METHOD_NAME" value="responds to ping" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -889,6 +1002,20 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="Start server" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="io.funatwork.MainKt" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="funatwork-backend_main" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -897,16 +1024,16 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="io.funatwork.MainKt" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
+      <module name="funatwork-backend" />
       <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -969,20 +1096,33 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.OrganizationApiTest.create a new organization" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.OrganizationApiTest.responds to ping" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.OrganizationApiTest.list organization" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.OrganizationApiTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.OrganizationApiFunctionnalTest" />
+    <configuration name="io.funatwork.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="io.funatwork.MainKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="funatwork-backend_main" />
+      <envs />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.Start server" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.OrganizationApiFunctionnalTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RegisterApiFunctionalTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RegisterApiFunctionalTest.responds to ping" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RegisterApiFunctionalTest.create a new user" />
+      <item index="5" class="java.lang.String" itemvalue="Kotlin.io.funatwork.MainKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.OrganizationApiFunctionnalTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.OrganizationApiTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.OrganizationApiTest.list organization" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.OrganizationApiTest.create a new organization" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.OrganizationApiTest.responds to ping" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RegisterApiFunctionalTest" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.io.funatwork.MainKt" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.OrganizationApiFunctionnalTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RegisterApiFunctionalTest.create a new user" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RegisterApiFunctionalTest.responds to ping" />
       </list>
     </recent_temporary>
   </component>
@@ -1018,61 +1158,67 @@
       <workItem from="1511295582203" duration="1228000" />
       <workItem from="1511683713009" duration="10000" />
       <workItem from="1511688778512" duration="861000" />
-      <workItem from="1511701674761" duration="245000" />
+      <workItem from="1511701674761" duration="533000" />
+      <workItem from="1513440453032" duration="286000" />
+      <workItem from="1515182341702" duration="944000" />
+      <workItem from="1515183858905" duration="6048000" />
+      <workItem from="1515240253752" duration="17381000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OrganizationApiFunctionnalTest - 2017.10.22 at 23h 18m 30s.xml">
+    <history-entry file="OrganizationApiFunctionnalTest - 2018.01.06 at 17h 32m 39s.xml">
       <configuration name="OrganizationApiFunctionnalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrganizationApiFunctionnalTest - 2017.10.22 at 23h 19m 58s.xml">
-      <configuration name="OrganizationApiFunctionnalTest" configurationId="JUnit" />
+    <history-entry file="RegisterApiFunctionalTest - 2018.01.07 at 22h 37m 25s.xml">
+      <configuration name="RegisterApiFunctionalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrganizationApiFunctionnalTest - 2017.10.22 at 23h 20m 20s.xml">
-      <configuration name="OrganizationApiFunctionnalTest" configurationId="JUnit" />
+    <history-entry file="RegisterApiFunctionalTest_create_a_new_user - 2018.01.05 at 22h 39m 00s.xml">
+      <configuration name="RegisterApiFunctionalTest.create a new user" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrganizationApiFunctionnalTest - 2017.10.22 at 23h 21m 11s.xml">
-      <configuration name="OrganizationApiFunctionnalTest" configurationId="JUnit" />
+    <history-entry file="RegisterApiFunctionalTest_create_a_new_user - 2018.01.05 at 22h 40m 06s.xml">
+      <configuration name="RegisterApiFunctionalTest.create a new user" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrganizationApiTest - 2017.10.22 at 15h 44m 30s.xml">
-      <configuration name="OrganizationApiTest" configurationId="JUnit" />
+    <history-entry file="RegisterApiFunctionalTest_create_a_new_user - 2018.01.05 at 22h 41m 44s.xml">
+      <configuration name="RegisterApiFunctionalTest.create a new user" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrganizationApiTest - 2017.10.22 at 16h 44m 03s.xml">
-      <configuration name="OrganizationApiTest" configurationId="JUnit" />
+    <history-entry file="RegisterApiFunctionalTest_create_a_new_user - 2018.01.05 at 22h 44m 34s.xml">
+      <configuration name="RegisterApiFunctionalTest.create a new user" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrganizationApiTest - 2017.10.22 at 23h 11m 55s.xml">
-      <configuration name="OrganizationApiTest" configurationId="JUnit" />
+    <history-entry file="RegisterApiFunctionalTest_create_a_new_user - 2018.01.05 at 22h 50m 08s.xml">
+      <configuration name="RegisterApiFunctionalTest.create a new user" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrganizationApiTest - 2017.10.22 at 23h 12m 12s.xml">
-      <configuration name="OrganizationApiTest" configurationId="JUnit" />
+    <history-entry file="RegisterApiFunctionalTest_create_a_new_user - 2018.01.06 at 13h 11m 57s.xml">
+      <configuration name="RegisterApiFunctionalTest.create a new user" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrganizationApiTest - 2017.10.22 at 23h 17m 21s.xml">
-      <configuration name="OrganizationApiTest" configurationId="JUnit" />
+    <history-entry file="RegisterApiFunctionalTest_create_a_new_user - 2018.01.06 at 14h 01m 34s.xml">
+      <configuration name="RegisterApiFunctionalTest.create a new user" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrganizationApiTest - 2017.10.22 at 23h 18m 18s.xml">
-      <configuration name="OrganizationApiTest" configurationId="JUnit" />
+    <history-entry file="RegisterApiFunctionalTest_responds_to_ping - 2018.01.05 at 22h 38m 47s.xml">
+      <configuration name="RegisterApiFunctionalTest.responds to ping" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45891000" />
+    <option name="totallyTimeSpent" value="70838000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="947" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263473" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33802816" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5880282" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28638497" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2814408" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2936508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1087,7 +1233,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32682925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1102,11 +1247,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/filter/AuthenticationFilter.kt</url>
-          <line>11</line>
-          <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/input/EntryToModelMapper.kt</url>
           <line>4</line>
           <properties />
@@ -1119,175 +1259,343 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/b44aed5fe16fe27bb75488a2274d435e875fdb44/kotlin-stdlib-1.1.51-sources.jar!/generated/_Arrays.kt" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-core/2.31.2/315e395f1ae126cd416ba196fc5fa250885488ae/http4k-core-2.31.2-sources.jar!/org/http4k/routing/routing.kt" />
-    <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/core/org/gradle/api/artifacts/dsl/RepositoryHandler.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.exposed/exposed/0.8.6/8d23b4e642bc1679856bce684e8d85d2608f42bd/exposed-0.8.6-sources.jar!/org/jetbrains/exposed/sql/statements/InsertStatement.kt" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.exposed/exposed/0.8.6/8d23b4e642bc1679856bce684e8d85d2608f42bd/exposed-0.8.6-sources.jar!/org/jetbrains/exposed/sql/Query.kt" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.exposed/exposed/0.8.6/8d23b4e642bc1679856bce684e8d85d2608f42bd/exposed-0.8.6-sources.jar!/org/jetbrains/exposed/sql/Database.kt" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.exposed/exposed/0.8.6/8d23b4e642bc1679856bce684e8d85d2608f42bd/exposed-0.8.6-sources.jar!/org/jetbrains/exposed/sql/Table.kt" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.requery/requery/1.4.1/632bdb1f0b925e675684dfc017899bc947ab69e5/requery-1.4.1-sources.jar!/io/requery/meta/ImmutableEntityModel.java" />
-    <entry file="jar:///usr/lib/jvm/java-1.8.0/jre/lib/rt.jar!/javax/sql/CommonDataSource.class" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.196/1646e9e294b9c956a441bc383ca17a62c4b52311/h2-1.4.196-sources.jar!/org/h2/jdbcx/JdbcDataSource.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.requery/requery-kotlin/1.4.1/b8ea91308e23cccf4959b32e604efc275b286a1d/requery-kotlin-1.4.1-sources.jar!/io/requery/sql/KotlinEntityDataStore.kt" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.requery/requery-kotlin/1.4.1/b8ea91308e23cccf4959b32e604efc275b286a1d/requery-kotlin-1.4.1-sources.jar!/io/requery/reactivex/KotlinReactiveEntityStore.kt" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.requery/requery-kotlin/1.4.1/b8ea91308e23cccf4959b32e604efc275b286a1d/requery-kotlin-1.4.1-sources.jar!/io/requery/sql/KotlinConfiguration.kt" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.requery/requery/1.4.1/632bdb1f0b925e675684dfc017899bc947ab69e5/requery-1.4.1-sources.jar!/io/requery/meta/EntityModel.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/5.0/a83e0dea72fc8aaddd1e54650e220d54a13b6eeb/ormlite-core-5.0-sources.jar!/com/j256/ormlite/dao/Dao.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/5.0/a83e0dea72fc8aaddd1e54650e220d54a13b6eeb/ormlite-core-5.0-sources.jar!/com/j256/ormlite/dao/DaoManager.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nhaarman/mockito-kotlin/1.5.0/87eb468d9b75a267dd1a3f354e5b7284bea20217/mockito-kotlin-1.5.0-sources.jar!/com/nhaarman/mockito_kotlin/Mockito.kt" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/mockito-extensions/org.mockito.plugins.MockMaker">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/PlayerDatabase.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/OrganizationEntity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/PlayerAction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/PlayerDatabase.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/FileExtension.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/input/CreateOrganizationEntry.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="70" lean-forward="false" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/input/EntryToModelMapper.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#95#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-client-okhttp/2.31.2/f5acf2ab767800be71467b9947939ac83ccea742/http4k-client-okhttp-2.31.2-sources.jar!/org/http4k/client/OkHttp.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/OrganizationAction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#29#252#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-core/2.31.2/315e395f1ae126cd416ba196fc5fa250885488ae/http4k-core-2.31.2-sources.jar!/org/http4k/core/http.kt" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-core/2.31.2/315e395f1ae126cd416ba196fc5fa250885488ae/http4k-core-2.31.2-sources.jar!/org/http4k/core/Http4k.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="68" lean-forward="false" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+        <state relative-caret-position="180">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/OrganizationResource.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/UserEntity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="99" lean-forward="false" selection-start-line="10" selection-start-column="99" selection-end-line="10" selection-end-column="99" />
+        <state relative-caret-position="90">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#38#125#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/OrganizationEntity.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/PlayerEntity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/model/Player.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/model/Organization.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/model/User.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding>
+            <element signature="e#38#125#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/EntitiesMapper.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="285">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/ModelMapper.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/filter/AuthenticationFilter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="61" lean-forward="false" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+        <state relative-caret-position="330">
+          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/PlayerResource.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/model/Organization.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/input/CreateOrganizationEntry.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="70" lean-forward="false" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/PlayerAction.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/DatabaseHelper.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="240">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/model/Player.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="77" lean-forward="false" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/OrganizationApiFunctionnalTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="61" column="111" lean-forward="false" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="111" />
           <folding>
-            <element signature="e#31#314#0" expanded="false" />
+            <element signature="e#0#768#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/ActionFactory.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-testing-hamkrest/3.8.0/d3f87956990ea923d6a95aa774e285a73cfab738/http4k-testing-hamkrest-3.8.0-sources.jar!/org/http4k/hamkrest/httpMessage.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="69" lean-forward="false" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+        <state relative-caret-position="255">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/Matcher.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-contract/3.8.0/58267ff58da048acd337228ca3a38122e294f6d8/http4k-contract-3.8.0-sources.jar!/org/http4k/contract/Security.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/javax/xml/bind/DatatypeConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="334" column="14" lean-forward="true" selection-start-line="334" selection-start-column="14" selection-end-line="334" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/model/User.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-contract/3.8.0/58267ff58da048acd337228ca3a38122e294f6d8/http4k-contract-3.8.0-sources.jar!/org/http4k/contract/OpenApi.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="107" lean-forward="false" selection-start-line="14" selection-start-column="91" selection-end-line="14" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/FunServer.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="60">
+          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-contract/3.8.0/58267ff58da048acd337228ca3a38122e294f6d8/http4k-contract-3.8.0-sources.jar!/org/http4k/contract/extensions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="906">
+          <caret line="69" column="17" lean-forward="false" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.10/c0f90f56ebb568fe5fa4001ee1941b27cb8a2e1f/kotlin-stdlib-1.2.10-sources.jar!/kotlin/text/TypeAliases.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-contract/3.8.0/58267ff58da048acd337228ca3a38122e294f6d8/http4k-contract-3.8.0-sources.jar!/org/http4k/util/Appendable.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-core/3.8.0/7f9d0e7fc3a8886c6848c9f64cbd201ab273c02a/http4k-core-3.8.0-sources.jar!/org/http4k/format/Json.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="42" column="8" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/registerDataSet/registerResultDataOk.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/registerDataSet/registerPostDataOk.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-format-argo/3.8.0/4faec146e126ff2ae1b0c80a0c8bc9bd733061e2/http4k-format-argo-3.8.0-sources.jar!/org/http4k/format/Argo.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding>
-            <element signature="e#22#456#0" expanded="true" />
+            <element signature="e#27#354#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-contract/3.8.0/58267ff58da048acd337228ca3a38122e294f6d8/http4k-contract-3.8.0-sources.jar!/org/http4k/contract/routeMeta.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-core/3.8.0/7f9d0e7fc3a8886c6848c9f64cbd201ab273c02a/http4k-core-3.8.0-sources.jar!/org/http4k/lens/body.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-core/3.8.0/7f9d0e7fc3a8886c6848c9f64cbd201ab273c02a/http4k-core-3.8.0-sources.jar!/org/http4k/lens/LensInjector.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-core/3.8.0/7f9d0e7fc3a8886c6848c9f64cbd201ab273c02a/http4k-core-3.8.0-sources.jar!/org/http4k/lens/header.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-core/3.8.0/7f9d0e7fc3a8886c6848c9f64cbd201ab273c02a/http4k-core-3.8.0-sources.jar!/org/http4k/core/Status.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/input/EntryToModelMapper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/route/RouteFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="46" column="55" lean-forward="false" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+          <folding>
+            <element signature="e#28#921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/AuthUser.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/ActionFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/OrganizationAction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#29#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/output/RegisterOutput.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/input/RegisterInput.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="93" lean-forward="false" selection-start-line="4" selection-start-column="93" selection-end-line="4" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/RegisterApiFunctionalTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/action/RegisterAction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <element signature="e#29#423#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1300,27 +1608,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/OrganizationApiFunctionnalTest.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-core/3.8.0/7f9d0e7fc3a8886c6848c9f64cbd201ab273c02a/http4k-core-3.8.0-sources.jar!/org/http4k/core/http.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+        <state relative-caret-position="407">
+          <caret line="213" column="10" lean-forward="false" selection-start-line="213" selection-start-column="10" selection-end-line="213" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.michaelbull/kotlin-result/1.0.5/38da6c3a4818915c42e3461d836cfc89ec04bca3/kotlin-result-1.0.5-sources.jar!/com/github/michaelbull/result/Result.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/UserResource.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
           <folding>
-            <element signature="e#0#768#0" expanded="true" />
+            <element signature="e#31#513#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/route/RouteFactory.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/filter/AuthUser.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="105">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/filter/AuthenticationFilter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#28#416#0" expanded="true" />
+            <element signature="e#29#313#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/markdown-navigator.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1328,64 +1668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1665">
-            <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-            <folding>
-              <marker date="1511295505008" expanded="true" signature="3354:3446" ph="{&quot;id&quot;: 1...}" />
-              <marker date="1511295505008" expanded="true" signature="3668:3762" ph="{&quot;name&quot;: &quot;Organization name&quot;...}" />
-              <marker date="1511295505008" expanded="true" signature="3827:3919" ph="{&quot;id&quot;: 1...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/UserResource.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/PlayerEntity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/5.0/a83e0dea72fc8aaddd1e54650e220d54a13b6eeb/ormlite-core-5.0-sources.jar!/com/j256/ormlite/field/DatabaseField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="80" column="12" lean-forward="false" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/funatwork/database/entity/UserEntity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="525">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
           <folding />
         </state>
       </provider>

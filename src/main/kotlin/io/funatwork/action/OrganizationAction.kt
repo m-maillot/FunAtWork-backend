@@ -4,7 +4,7 @@ import io.funatwork.action.input.CreateOrganizationEntry
 import io.funatwork.database.OrganizationResource
 import io.funatwork.model.Organization
 import org.http4k.core.*
-import org.http4k.format.Jackson.auto
+import org.http4k.format.Gson.auto
 import toModel
 
 class OrganizationAction(private val organizationResource: OrganizationResource) {

@@ -14,7 +14,7 @@ import org.http4k.server.asServer
 
 class FunServer(port: Int, private val databaseHelper: DatabaseHelper,
                 private val adminFilter: AdminAuthenticationFilter = AdminAuthenticationFilter(),
-                private val authFilter: AuthenticationFilter = AuthenticationFilter(databaseHelper.userResource),
+                private val authFilter: AuthenticationFilter = AuthenticationFilter(databaseHelper.userResource()),
                 private val actionFactory: ActionFactory = ActionFactory(databaseHelper),
                 private val routeFactory: RouteFactory = RouteFactory(actionFactory, adminFilter, authFilter)) {
 

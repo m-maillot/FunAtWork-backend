@@ -1,19 +1,19 @@
 package io.funatwork.database.entity
 
-/*
-@Entity
-data class PlayerEntity constructor(
+import com.j256.ormlite.field.DatabaseField
+import com.j256.ormlite.table.DatabaseTable
 
-        @get:Key
-        @get:Generated
-        val id: Int,
-
-        val avatar: String,
-        val name: String,
-        val surname: String,
-
-        @get:ForeignKey
-        @get:OneToOne
-        var organization: OrganizationEntity
+@DatabaseTable(tableName = "player")
+data class PlayerEntity(
+        @DatabaseField(generatedId = true)
+        val id: Int = -1,
+        @DatabaseField(columnName = PSEUDO, canBeNull = false)
+        val pseudo: String = "",
+        @DatabaseField(columnName = AVATAR, canBeNull = true)
+        val avatar: String? = null,
+        @DatabaseField(canBeNull = false, foreign = true)
+        var user: UserEntity = UserEntity()
 )
-        */
+
+const val PSEUDO = "pseudo"
+const val AVATAR = "avatar"

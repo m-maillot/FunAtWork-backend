@@ -1,14 +1,15 @@
 package io.funatwork.database.entity
 
 import io.funatwork.model.Organization
+import io.funatwork.model.Player
 import io.funatwork.model.User
 
 fun User.toEntity() =
         UserEntity(id = id,
-                login = login,
+                mail = mail,
                 password = password,
                 token = token,
-                tokenExpire = tokenExpire,
+                tokenExpireTimestampInMs = tokenExpireTimestampInMs,
                 organization = organization.toEntity())
 
 fun Organization.toEntity() =
@@ -16,3 +17,9 @@ fun Organization.toEntity() =
                 logo = logo,
                 name = name
         )
+
+fun Player.toEntity() =
+        PlayerEntity(id = id,
+                pseudo = pseudo,
+                avatar = avatar,
+                user = user.toEntity())
